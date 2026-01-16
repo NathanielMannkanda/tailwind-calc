@@ -2,6 +2,7 @@ import { useState } from "react"
 import CalcButton from "./ClacButton"
 
 export default function App() {
+  /* Calc */
   const [display, setDisplay] = useState("0")
 
   const handleNumber = (num: string) => {
